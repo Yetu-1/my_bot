@@ -1,0 +1,68 @@
+[0.008s] Invoking command in '/home/carl/dev_ws/src/my_bot/build/my_bot': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/carl/dev_ws/src/my_bot -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/carl/dev_ws/src/my_bot/install/my_bot
+[0.138s] -- The C compiler identification is GNU 9.4.0
+[0.237s] -- The CXX compiler identification is GNU 9.4.0
+[0.244s] -- Check for working C compiler: /usr/bin/cc
+[0.287s] -- Check for working C compiler: /usr/bin/cc -- works
+[0.288s] -- Detecting C compiler ABI info
+[0.331s] -- Detecting C compiler ABI info - done
+[0.338s] -- Detecting C compile features
+[0.339s] -- Detecting C compile features - done
+[0.341s] -- Check for working CXX compiler: /usr/bin/c++
+[0.385s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[0.385s] -- Detecting CXX compiler ABI info
+[0.431s] -- Detecting CXX compiler ABI info - done
+[0.439s] -- Detecting CXX compile features
+[0.439s] -- Detecting CXX compile features - done
+[0.447s] -- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.466s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[0.466s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.557s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.580s] -- Found ament_lint_auto: 0.9.8 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[0.630s] -- Added test 'copyright' to check source files copyright and LICENSE
+[0.647s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[0.647s] -- Configured cppcheck include dirs: 
+[0.647s] -- Configured cppcheck exclude dirs and/or files: 
+[0.653s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[0.653s] -- Configured cpplint exclude dirs and/or files: 
+[0.655s] -- Added test 'flake8' to check Python code syntax and style conventions
+[0.656s] -- Added test 'lint_cmake' to check CMake code style
+[0.657s] -- Added test 'pep257' to check Python code against some of the style conventions in PEP 257
+[0.664s] -- Added test 'uncrustify' to check C / C++ code style
+[0.664s] -- Configured uncrustify additional arguments: 
+[0.665s] -- Added test 'xmllint' to check XML markup files
+[0.667s] -- Configuring done
+[0.668s] -- Generating done
+[0.669s] -- Build files have been written to: /home/carl/dev_ws/src/my_bot/build/my_bot
+[0.671s] Invoked command in '/home/carl/dev_ws/src/my_bot/build/my_bot' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/carl/dev_ws/src/my_bot -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/carl/dev_ws/src/my_bot/install/my_bot
+[0.673s] Invoking command in '/home/carl/dev_ws/src/my_bot/build/my_bot': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/carl/dev_ws/src/my_bot/build/my_bot -- -j4 -l4
+[0.694s] Invoked command in '/home/carl/dev_ws/src/my_bot/build/my_bot' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/carl/dev_ws/src/my_bot/build/my_bot -- -j4 -l4
+[0.713s] Invoking command in '/home/carl/dev_ws/src/my_bot/build/my_bot': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/carl/dev_ws/src/my_bot/build/my_bot
+[0.718s] -- Install configuration: ""
+[0.718s] -- Execute custom install script
+[0.719s] -- Symlinking: /home/carl/dev_ws/src/my_bot/install/my_bot/share/my_bot/config/empty.yaml
+[0.723s] -- Symlinking: /home/carl/dev_ws/src/my_bot/install/my_bot/share/my_bot/config/mapper_params_online_async.yaml
+[0.729s] -- Symlinking: /home/carl/dev_ws/src/my_bot/install/my_bot/share/my_bot/config/view_bot.rviz
+[0.735s] -- Symlinking: /home/carl/dev_ws/src/my_bot/install/my_bot/share/my_bot/description/gazebo_control.xacro
+[0.742s] -- Symlinking: /home/carl/dev_ws/src/my_bot/install/my_bot/share/my_bot/description/inertial_macros.xacro
+[0.747s] -- Symlinking: /home/carl/dev_ws/src/my_bot/install/my_bot/share/my_bot/description/lidar.xacro
+[0.751s] -- Symlinking: /home/carl/dev_ws/src/my_bot/install/my_bot/share/my_bot/description/robot.urdf.xacro
+[0.756s] -- Symlinking: /home/carl/dev_ws/src/my_bot/install/my_bot/share/my_bot/description/robot_core.xacro
+[0.761s] -- Symlinking: /home/carl/dev_ws/src/my_bot/install/my_bot/share/my_bot/launch/launch_sim.launch.py
+[0.765s] -- Symlinking: /home/carl/dev_ws/src/my_bot/install/my_bot/share/my_bot/launch/rsp.launch.py
+[0.770s] -- Symlinking: /home/carl/dev_ws/src/my_bot/install/my_bot/share/my_bot/worlds/empty.world
+[0.774s] -- Symlinking: /home/carl/dev_ws/src/my_bot/install/my_bot/share/ament_index/resource_index/package_run_dependencies/my_bot
+[0.778s] -- Symlinking: /home/carl/dev_ws/src/my_bot/install/my_bot/share/ament_index/resource_index/parent_prefix_path/my_bot
+[0.783s] -- Symlinking: /home/carl/dev_ws/src/my_bot/install/my_bot/share/my_bot/environment/ament_prefix_path.sh
+[0.787s] -- Symlinking: /home/carl/dev_ws/src/my_bot/install/my_bot/share/my_bot/environment/ament_prefix_path.dsv
+[0.791s] -- Symlinking: /home/carl/dev_ws/src/my_bot/install/my_bot/share/my_bot/environment/path.sh
+[0.795s] -- Symlinking: /home/carl/dev_ws/src/my_bot/install/my_bot/share/my_bot/environment/path.dsv
+[0.799s] -- Symlinking: /home/carl/dev_ws/src/my_bot/install/my_bot/share/my_bot/local_setup.bash
+[0.804s] -- Symlinking: /home/carl/dev_ws/src/my_bot/install/my_bot/share/my_bot/local_setup.sh
+[0.809s] -- Symlinking: /home/carl/dev_ws/src/my_bot/install/my_bot/share/my_bot/local_setup.zsh
+[0.814s] -- Symlinking: /home/carl/dev_ws/src/my_bot/install/my_bot/share/my_bot/local_setup.dsv
+[0.818s] -- Symlinking: /home/carl/dev_ws/src/my_bot/install/my_bot/share/my_bot/package.dsv
+[0.824s] -- Symlinking: /home/carl/dev_ws/src/my_bot/install/my_bot/share/ament_index/resource_index/packages/my_bot
+[0.829s] -- Symlinking: /home/carl/dev_ws/src/my_bot/install/my_bot/share/my_bot/cmake/my_botConfig.cmake
+[0.833s] -- Symlinking: /home/carl/dev_ws/src/my_bot/install/my_bot/share/my_bot/cmake/my_botConfig-version.cmake
+[0.839s] -- Symlinking: /home/carl/dev_ws/src/my_bot/install/my_bot/share/my_bot/package.xml
+[0.846s] Invoked command in '/home/carl/dev_ws/src/my_bot/build/my_bot' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/carl/dev_ws/src/my_bot/build/my_bot
